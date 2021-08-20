@@ -1,0 +1,2 @@
+# --crossval chosen : Running leave-one-out cross-validation on input scores
+# Read 2 input scores from tiny_star_scores.tab. 2 hits in graph.
