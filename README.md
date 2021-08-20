@@ -8,6 +8,8 @@
 
 #Scoring nodes based on significant interactions with SNPs
 
+#Network Generation
+
 #Graph diffusion and eigenvector calculation
 
 #Muscari
