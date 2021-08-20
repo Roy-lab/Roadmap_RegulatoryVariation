@@ -1,0 +1,1 @@
+/royfs_write/szhang/e_p_project/hic_for_ripple/pairfeatures_new/Gm12878/pairfeatures_concat_norm_5kb_SQRTVC/Window_1MBpairs/prerandomize_3test/chr17/test_combine.txt 

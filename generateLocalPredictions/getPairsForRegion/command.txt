@@ -1,0 +1,1 @@
+./graphGen /royfs_write/szhang/e_p_project/hic_for_ripple/pairfeatures_new/MCF7/pairfeatures_concat_norm_5kb_SQRTVC/Window_allpairs/prerandomize/chr17/test_combine.txt 0 2000000 31 2000000 1 temp4
