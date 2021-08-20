@@ -1,0 +1,4 @@
+Need to update the code to read the format(re) from Brittany. We want to map a SNP to a gene if a SNP is mapped to a bin and the bin either contains the gene
+or the bin has a long range interaction with the gene. If the SNP is mapped to a bin that is mapped to a gene, we should map this SNP to this gene and not to the gene in the other bin (if it exists). Or should we map the SNP to all genes that are connected to the enhancer?
+
+The goal of this program is to take a list of SNPs, a set of interactions with count and pvalues and output two files: one that shows the SNPs mapped to a pair, two that shows the SNP effect on a gene. This is the average of the -log(qvalues) due to a distal or proximal interaction with a SNP.
