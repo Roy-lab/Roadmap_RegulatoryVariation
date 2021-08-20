@@ -1,0 +1,71 @@
+Mapping motif instances to TSS of targets
+usage:
+	-s		TSS file
+	-x		Get TSS per GENE or TRANSCRIPT (default GENE)
+	-a		For duplicate edges, get MAX or MIN or SUM or AVG (default MAX)
+	-m		Motif instances
+	-c		Configuration for motif instances (optional)
+	-r		Mapping for chromosome names (optional)
+	-g		Mapping for gene names (optional)
+	-t		Mapping for motif names (optional)
+	-w		Window size around TSS (default: 2000)
+	-o		Output file prefix
+	-h		Print this message
+
+-s
+TSS file, looks like this:
+0	chr1	
+1	Ensembl	
+2	CapSite	
+3	10030236	
+4	10030236	
+5	.	
+6	+	
+7	.	
+8	gene_id ENSMUSG00000056763 trlist ENSMUST00000155974, trbiotlist protein_coding, confidence not_low gene_biotype protein_coding
+
+-x
+Select GENIE or TRANSCRIPT, e.g. for "gene_id ENSMUSG00000056763 trlist ENSMUST00000155974,", map to ENSMUSG00000056763 or ENSMUST00000155974.
+
+-a
+For duplicate edges (when multiple motif instances map to target genes), take max, min, sum, or average
+
+-m
+Motif instances
+By default, we assume it is FIMO format:
+LM13	chr12	66272519	66272531	+	6.23383	5.1e-06		ATGCTTATGAGCA
+0	motif name
+1	chromosome
+2	begin
+3	end
+4	strand
+5	score
+
+-c
+Config file for format of motif instances, like this:
+chr	0
+beg	1
+end	2
+score	3
+name	4
+
+-r
+Mapping for chromosome names (I think it was originally used as list of acceptable chromosomes):
+chr1	chr1
+
+-g 
+Mapping ensembl ID to common name, either from transcript to gene, or gene to gene:
+Zranb2	ENSMUSG00000028180
+or
+Ahnak	ENSMUST00000088050
+
+-t
+Map motif name to TF names:
+M6519_1.02	Tgif2::Tgif1
+
+-w
+Window size (default 2000)
+
+-o
+prefix of output file. The program will create [out]_edges.txt [out]_mapped.txt
+
