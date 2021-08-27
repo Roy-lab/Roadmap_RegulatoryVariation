@@ -12,7 +12,7 @@ We used the code in generateLocalPredictions (see README there) to extract the f
 
 #Scoring nodes based on significant interactions with SNPs: The code for mapping significant interactions to SNPs and scoring the genes based on their significant interactions with SNPs is provided in the mapregionpair_snp directory. This is what is used as input into the graph diffusion and MTGC pipeline.
 
-#Network Generation
+#Network Generation: The code for generating the cell-type specific networks is included in the NetworkGeneration directory. Note that this includes the distal nd proximal networks. 
 
 #Graph diffusion and eigenvector calculation
 
