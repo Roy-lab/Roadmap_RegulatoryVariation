@@ -1,0 +1,19 @@
+This program maps significant interactions associated with genes to SNPs. 
+This program also creates the node scores that we use as input into the graph diffusion appproach and MTGC.
+
+Usage:
+SNPFILE: 3 columns - SNP ID and the chr and genome position (ExampleIn/SNPset.txt 
+GENENAMEMAP: Maps ensemble IDs to gene names (ExampleIn/hgnc_complete_set.txt)
+INTERACTIONFILE: This file has the significant interactions linked to genes (ExampleIn/interactionFile.txt)
+The format is: bin1, bin2, cnt, dist,p-value,Genes in Bin1, Genes in Bin2.
+If there are no genes in bin 1 or bin 2 put <nodata>.
+OUTPREFIX: Output pre-fix 
+
+mapSNPtoRegion $SNPFILE $GENENAMEMAP $INTERACTIONFILE ${OUTPREFIX}
+
+Outputs:
+$OUTPREFIX_genescores.txt - Gene scores: The first is the average logQ val over all the SNPs (this is what we use as the node score) and the second is the average predicted count ( we do not use this one for node score) Example - ExampleOut/Example_genescores.txt
+
+$OUTPREFIX_region_snp.txt - Individual SNP-gene interactions that are mapped to significant interactions. Col 1: SNP ID, Col 2: Gene ID, Col3: Bin 1, Col4: Bin 2, Col5: Count, Col6: Qval, Col7: Gene(s)
+
+$OUTPREFIX_snpgene_pair.txt - All SNP-gene interactions organized by gene before the averaging takes place Col 1: Gene, Col 2: SNP ID, Col3: Cnt, Col 4: Qval.

@@ -1,0 +1,17 @@
+RAD21	./RAD21_cd14_primary_cells.txt	M
+TBP	./TBP_cd14_primary_cells.txt	M
+CTCF	./CTCF_cd14_primary_cells.txt	M
+Dnase	./Discrete_Dnase.txt	C
+H3K27ac	./Discrete_H3K27ac.txt	C
+H3K27me3	./Discrete_H3K27me3.txt	C
+H3K36me3	./Discrete_H3K36me3.txt	C
+H3K4me1	./Discrete_H3K4me1.txt	C
+H3K4me3	./Discrete_H3K4me3.txt	C
+H3K9me3	./Discrete_H3K9me3.txt	C
+Dnase	./Dnase_cd14_primary_cells_seqdepth_norm_collapsed.txt	W
+H3K27ac	./H3K27ac_cd14_primary_cells_seqdepth_norm_collapsed.txt	W
+H3K27me3	./H3K27me3_cd14_primary_cells_seqdepth_norm_collapsed.txt	W
+H3K36me3	./H3K36me3_cd14_primary_cells_seqdepth_norm_collapsed.txt	W
+H3K4me1	./H3K4me1_cd14_primary_cells_seqdepth_norm_collapsed.txt	W
+H3K4me3	./H3K4me3_cd14_primary_cells_seqdepth_norm_collapsed.txt	W
+H3K9me3	./H3K9me3_cd14_primary_cells_seqdepth_norm_collapsed.txt	W
