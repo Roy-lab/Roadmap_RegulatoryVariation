@@ -6,4 +6,4 @@ Additionally, for motifs it takes the count (PIQ PIV > 0.5) in E P pairs, and th
 
 Usage is the same as previous implementations. In order to work, the motifs have to be listed in the feature file first followed by the discrete data and continuous data in the same order. Motifs are labeled with 'M', discrete data is labeled with 'C' and continuous data is labeled with 'W'.
 
-EXAMPLE: Gm12878_wContinuous_motif.txt
+Example feature file format, along with example inputs and outputs are provided in the 'examples' folder.
