@@ -10,7 +10,7 @@ We used the code in generateLocalPredictions (see README there) to extract the f
 
 #Significant interaction calling
 
-#Scoring nodes based on significant interactions with SNPs
+#Scoring nodes based on significant interactions with SNPs: The code for mapping significant interactions to SNPs and scoring the genes based on their significant interactions with SNPs is provided in the mapregionpa
 
 #Network Generation
 
