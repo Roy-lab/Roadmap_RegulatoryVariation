@@ -1,16 +1,16 @@
 # Roadmap_RegulatoryVariation
 
-#Feature Generation
+#Feature Generation:
 Code, examples and information on feature generation is provided in the genFeaturesForDiscrete data directory here.
 
-#Prediction Generation
+#Prediction Generation:
 We used the code provided in https://github.com/Roy-lab/HiC-Reg to generate predictions.
 L-HiC-Reg simply uses features from 1 Mb regions as input into Hi-C reg. 
 We used the code in generateLocalPredictions (see README there) to extract the features in a 1 Mb region from the whole of the output from the feature generation code.
 
-#Significant interaction calling
+#Significant interaction calling: The code for calling significant interactions with the binomial method is provided 
 
-#Scoring nodes based on significant interactions with SNPs: The code for mapping significant interactions to SNPs and scoring the genes based on their significant interactions with SNPs is provided in the mapregionpa
+#Scoring nodes based on significant interactions with SNPs: The code for mapping significant interactions to SNPs and scoring the genes based on their significant interactions with SNPs is provided in the mapregionpair_snp directory. This is what is used as input into the graph diffusion and MTGC pipeline.
 
 #Network Generation
 
