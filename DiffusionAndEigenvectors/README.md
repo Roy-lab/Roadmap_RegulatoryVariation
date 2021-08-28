@@ -1,5 +1,6 @@
 After performing the gene scoring (code provided in mapregionpairsnp), we next performed node and edge diffusion on the graph. 
 
-1. Node diffusion: We did node diffusion using a regularized laplacian kernel (see readme in reg_laplacian).
-2. Edge diffusion: 
-3. After edge diffusion, we extracted the subnetwork and performed qnormalization (with the qnorm_union.m script)
+Node diffusion: We did node diffusion using a regularized laplacian kernel (see readme in reg_laplacian).
+Edge diffusion was performed with the hotnet2 pipeline: https://github.com/raphael-group/hotnet2
+
+Eigenvectors were calculated much in the same way as the original MUSCARI pipeline (https://github.com/Roy-lab/Muscari) the only difference being we used the L1 norm instead of the L2 norm. 
