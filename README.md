@@ -1,5 +1,7 @@
 # Roadmap_RegulatoryVariation
 
+**Significant interactions, SNP-Gene Interactions, Node and Edge Weights, cluster assignments, transitioning gene sets and network figures are available at the website: https://pages.discovery.wisc.edu/~bbaur/Roadmap_RegulatoryVariation/**
+
 **note:** Additional readmes and examples are provided in each of these directories. 
 
 #Feature Generation:
