@@ -23,3 +23,5 @@ We used the code in **generateLocalPredictions** (see README there) to extract t
 #Muscari
 After the eigegnvectors are calculated, to do the multi-task clustering we used MUSCARI
 https://github.com/Roy-lab/Muscari
+
+#Transitioning gene sets: Transitioning gene sets were produced with the de novo clustering approach in: https://github.com/Roy-lab/clade-specific_gene_sets 
