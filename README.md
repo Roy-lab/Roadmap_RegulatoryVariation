@@ -16,9 +16,9 @@ We used the code in **generateLocalPredictions** (see README there) to extract t
 
 #Scoring nodes based on significant interactions with SNPs: The code for mapping significant interactions to SNPs and scoring the genes based on their significant interactions with SNPs is provided in the **mapregionpair_snp** directory. This is what is used as input into the graph diffusion and MTGC pipeline.
 
-#Network Generation: The code for generating the cell-type specific networks is included in the **NetworkGeneration** directory. Note that this includes the distal nd proximal networks. 
+#Network Generation: The code for generating the cell-type specific networks is included in the **NetworkGeneration** directory. Note that this includes the distal and proximal networks. 
 
-#Graph diffusion and eigenvector calculation
+#Graph diffusion and eigenvector calculation: Information and code on the diffusion process and eigenvector calculation is provided in **DiffusionAndEigenvectors**
 
 #Muscari
 After the eigegnvectors are calculated, to do the multi-task clustering we used MUSCARI
