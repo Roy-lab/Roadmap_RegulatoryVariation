@@ -9,7 +9,7 @@ Code, examples and information on feature generation is provided in the **genFea
 
 #Prediction Generation:
 We used the code provided in https://github.com/Roy-lab/HiC-Reg to generate predictions.
-L-HiC-Reg simply uses features from 1 Mb regions as input into Hi-C reg. 
+L-HiC-Reg simply uses features from 1 Mb regions as input into HiC-Reg. 
 We used the code in **generateLocalPredictions** (see README there) to extract the features in a 1 Mb region from the whole of the output from the feature generation code.
 
 #Significant interaction calling: The code for calling significant interactions with the binomial method is provided in the **sigcallinter** directory.
