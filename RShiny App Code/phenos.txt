@@ -1,0 +1,16 @@
+Coronaryarterydisease
+Autismspectrumdisorderorschizophrenia
+Inflammatoryboweldisease
+Bloodproteinlevels
+Obesity-relatedtraits
+Bodymassindex
+PostbronchodilatorFEV1
+Breastcancer
+PostbronchodilatorFEV1FVCratio
+PostbronchodilatorFEV1FVCratioinCOPD
+Crohnsdisease
+Schizophrenia
+Height
+Type2diabetes
+IgGglycosylation
+
